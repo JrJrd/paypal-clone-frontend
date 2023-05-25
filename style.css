@@ -49,6 +49,33 @@
     font-weight: 600;
     cursor: pointer;
   }
+  .nav-list {
+    display: flex;
+  }
+  .nav-list-item {
+    height: 8rem;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    transition: border-bottom 0.1s;
+  }
+
+  .nav-list-link {
+    width: 100%;
+    height: 100%;
+    font-size: 1.7rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-list-link i {
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+    transition: transform 0.3s;
+  }
   /* End of Common Styles */
   
   /* Front Page */
